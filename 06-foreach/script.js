@@ -8,4 +8,6 @@ function mostrarAnimal(animal) {
     console.log("Animal:", animal);
 }
 
-// foEach executa mostrarAnimal automaticamente para cada item.
+// forEach executa mostrarAnimal automaticamente para cada item.
+// Sem parênteses: passamos a função, não o resultado dela.
+animais.forEach
