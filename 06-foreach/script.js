@@ -7,3 +7,5 @@ const animais = ["Gato", "Cachorro", "Coelho"];
 function mostrarAnimal(animal) {
     console.log("Animal:", animal);
 }
+
+// foEach executa mostrarAnimal automaticamente para cada item.
