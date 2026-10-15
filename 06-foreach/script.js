@@ -2,3 +2,6 @@
 
 // Array: uma lista com três elementos.
 const animais = ["Gato", "Cachorro", "Coelho"];
+
+// Este callback recebe UM animal por vez.
+
