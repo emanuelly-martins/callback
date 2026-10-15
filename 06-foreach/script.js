@@ -10,4 +10,10 @@ function mostrarAnimal(animal) {
 
 // forEach executa mostrarAnimal automaticamente para cada item.
 // Sem parênteses: passamos a função, não o resultado dela.
-animais.forEach
+animais.forEach(mostrarAnimal);
+// Outra maneira de escrever a mesma ideia: arrow function.
+animais.forEach((animal, índice) => {
+    // índice começa em 0; por isso somamos 1 para mostrar 1, 2 e 3.
+    console.log(`Posição ${índice + 1}: ${animal}`);
+});
+// IMPORTANTE: forEach não cria automaticamente um novo array.
