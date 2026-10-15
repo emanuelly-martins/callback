@@ -9,7 +9,7 @@ function verificarTemperatura(temperatura) {
     }
 }
 
-// Esta função é genérica: nã sabe nada sobre temperatura.
+// Esta função é genérica: não sabe nada sobre temperatura.
 function analisar(valor, callback) {
     callback(valor); // Entrega o valor à função recebida.
 }
