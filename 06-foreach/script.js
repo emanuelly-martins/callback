@@ -4,4 +4,6 @@
 const animais = ["Gato", "Cachorro", "Coelho"];
 
 // Este callback recebe UM animal por vez.
-
+function mostrarAnimal(animal) {
+    console.log("Animal:", animal);
+}
